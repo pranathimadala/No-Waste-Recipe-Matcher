@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html xmlns:th="https://www.thymeLeaf.org"> 
+<head>
+<meta charset = "ISO-8859-1"> 
+<title>Output Page</title>
+</head>
+<body>
+
+<h1>Output Page!</h1>
+<h2>You have picked the following ingredients:</h2>
+<table>
+        <tr th:each="ingredient : ${ingredients}"> 
+        <td th:text="${ingredient}"></td>
+        </tr>
+</table>
+
+<h3>Based on the ingredients you have picked, you should make:</h3>
+
+
+<h4>Mango Margarita</h4</body></html>
